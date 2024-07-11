@@ -1,0 +1,1 @@
+WScript.Echo("Hello, this is a JavaScript script for Windows Script Host!");
