@@ -1,0 +1,8 @@
+HKCU {
+    Software {
+        MyApplication {
+            "Version"="1.0"
+            "Language"="Portuguese"
+        }
+    }
+}

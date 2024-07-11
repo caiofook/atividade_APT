@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+    <assemblyIdentity
+        name="ExemploApp"
+        version="1.0.0.0"
+        publicKeyToken="abcdef1234567890"
+        processorArchitecture="x86"
+    />
+    <description>Descrição do ExemploApp</description>
+    <deployment
+        install="true"
+        mapFileExtensions="true"
+        trustUrlParameters="true"
+    >
+        <subscription>
+            <update>
+                <expiration maximumAge="7" unit="days"/>
+            </update>
+        </subscription>
+        <deploymentProvider codebase="http://www.exemplo.com/ExemploApp/ExemploApp.application"/>
+    </deployment>
+    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+        <application>
+            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+        </application>
+    </compatibility>
+    <application xmlns="urn:schemas-microsoft-com:asm.v3">
+        <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+            <security>
+                <requestedPrivileges>
+                    <requestedExecutionLevel
+                        level="asInvoker"
+                        uiAccess="false"
+                    />
+                </requestedPrivileges>
+            </security>
+        </trustInfo>
+    </application>
+</assembly>

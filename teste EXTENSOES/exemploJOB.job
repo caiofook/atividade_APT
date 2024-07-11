@@ -1,0 +1,18 @@
+<job>
+  <title>Exemplo de Tarefa Agendada</title>
+  <description>Esta é uma tarefa agendada de exemplo</description>
+  <author>Usuário</author>
+  <command>C:\caminho\para\seu\programa.exe</command>
+  <flags>INTERACTIVE  TASK_FLAG_DELETE_WHEN_DONE</flags>
+  <workingdirectory>C:\caminho\para\o\diretório</workingdirectory>
+  <parameters>argumentos para seu programa</parameters>
+  <account_information>Informações da conta de serviço</account_information>
+  <priority>1</priority>
+  <triggers>
+    <time_trigger>
+      <start_time>12:00 AM</start_time>
+      <end_time>12:00 PM</end_time>
+      <days>MON TUE WED THU FRI</days>
+    </time_trigger>
+  </triggers>
+</job>
